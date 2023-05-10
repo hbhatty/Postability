@@ -2,6 +2,7 @@ import Nav from "./auth/Nav";
 import { Roboto } from "next/font/google";
 import QueryWrap from "./auth/QueryWrap";
 import "./global.css";
+// import { ThemeProvider } from "next-themes";
 
 
 //global file
@@ -17,11 +18,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html>
       <body className={`mx-4 md:mx-48 xl:mx-96${roboto.variable} bg-gray-200`}>
         <QueryWrap>
           <Nav />
-          {children}
+         {children}
         </QueryWrap>
       </body>
     </html>

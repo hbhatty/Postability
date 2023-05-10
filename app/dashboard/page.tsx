@@ -8,8 +8,10 @@ export default async function Dash(){
     if(!sesh){
         redirect("/api/auth/signin")
     }
+    
     return (
-        <main>
+        // <body className={`mx-4 md:mx-48 xl:mx-96$ bg-gray-200 dark:bg-black`}>
+        <main >
             <h1 className= "text-2xl font-bold">Welecome {sesh?.user?.name}!</h1>
             <UserPosts/>
         </main>
