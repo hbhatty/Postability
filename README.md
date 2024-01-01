@@ -1,5 +1,8 @@
 ### Overview
 
+## What is Postability
+Postability is a website where you can share your thoughts on anything. It's like a youtube comments clone essentially (without the video part). I created this intermediate project using Next.JS as this framework seems to be on the rise.
+
 ## What I learned
 - Prisma allows us communicate with any type of database with one syntax
 - Railway used to actually see our data in our tables, also connected to prisma
